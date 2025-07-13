@@ -135,6 +135,5 @@ async def statusbot(ctx):
 
 # === JALANKAN BOT ===
 keep_alive()
-bot.run(
-    "MTM5MzcxODAzMTM3MjI1OTQyMA.GvNw8M.nIptDS0wOP1D62Coi2wCoS2uRSIWGG5IUiIgik"
-)  # Ganti dengan token asli
+import os
+bot.run(os.getenv("TOKEN")) # Ganti dengan token asli
